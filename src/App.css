@@ -7,7 +7,6 @@
     margin:0 auto;
     background-image: url('../img/fondo1.jpg');
     height: 100vh;
-    width: 100%;
     background-size: cover;
     background-position: center;
 }
@@ -61,6 +60,7 @@ h1{
     transform: scale(1.1);
 }
 
+
 p{
     text-align: center;
     margin-top: 50%;
@@ -93,6 +93,7 @@ figure{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 .ul__li{
@@ -109,6 +110,14 @@ h2{
     width: 45px;
     height: 45px;
     line-height: 45px;
+}
+
+.div__a:link{
+    text-decoration: none;
+}
+.div__a:visited{
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 800px){

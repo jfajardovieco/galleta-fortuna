@@ -30,6 +30,7 @@ function App() {
         setphraseRandom={setphraseRandom}
         setbgApp={setbgApp}/>
         <div/>
+        
         </div>
     </>
   )
