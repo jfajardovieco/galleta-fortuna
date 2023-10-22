@@ -7,6 +7,7 @@
     margin:0 auto;
     background-image: url('../img/fondo1.jpg');
     height: 100vh;
+    width: 100%;
     background-size: cover;
     background-position: center;
 }
@@ -65,3 +66,74 @@ p{
     margin-top: 50%;
     font-size: 30px;
 }
+
+.logo_academlo{
+    width: 250px;
+    
+}
+
+footer{
+    width: 100%;
+    background-color: #0a141d;
+}
+
+.footer__div{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul__li{
+   color: #FFFFFF  
+}
+
+h2{
+    color: #FFFFFF  
+}
+
+.div__a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+}
+
+@media screen and (max-width: 800px){
+    .footer__div{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    } 
+
+    h1{
+        text-align: center;
+        position: absolute;
+        margin: auto;
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    h1{
+        text-align: center;
+        position: absolute;
+        margin: auto;
+        font-size: 30px;
+        bottom: 400px;
+    }
+}
+    
